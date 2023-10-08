@@ -2,10 +2,8 @@
 the source code of  paper "Multi-view Graph Imputation Network"
 
 ## Requirement
-pytorch
-
-pytorch_geometric
-
+pytorch 
+pytorch_geometric 
 numpy
 
 ## Train
