@@ -3,12 +3,15 @@ the source code of  paper "Multi-view Graph Imputation Network"
 
 ## Requirement
 pytorch
+
 pytorch_geometric
+
 numpy
 
 ## Train
 ```bash
-python main.py --dataset cora\citeseer\amap\amac
+python main.py --dataset [name]
+
 ```
 
 ## Citation
