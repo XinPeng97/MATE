@@ -1,0 +1,57 @@
+cora:
+  encoder_channels: 256
+  hidden_channels: 128
+  decoder_channels: 64
+  encoder_layers: 2
+  decoder_layers: 2
+  eproj_layer: 2
+  eproj_dropout: 0.6
+  encoder_dropout: 0.4
+  decoder_dropout: 0.8
+  temp: 0.2
+  p: 0.8
+  epoch: 3000
+  
+
+
+citeseer:
+  encoder_channels: 512
+  hidden_channels: 256
+  decoder_channels: 64
+  encoder_layers: 2
+  decoder_layers: 2
+  encoder_dropout: 0.4
+  eproj_dropout: 0.8
+  decoder_dropout: 0.8
+  temp: 0.2
+  p: 0.8
+  epoch: 3000
+
+amap:
+  encoder_channels: 512
+  hidden_channels: 256
+  decoder_channels: 64
+  encoder_layers: 2
+  decoder_layers: 2
+  eproj_layer: 2
+  eproj_dropout: 0.5
+  encoder_dropout: 0.5
+  decoder_dropout: 0.5
+  temp: 0.2
+  p: 0.8
+  epoch: 3000
+
+amac:
+  encoder_channels: 512
+  hidden_channels: 256
+  decoder_channels: 64
+  encoder_layers: 2
+  decoder_layers: 4
+  eproj_layer: 2
+  eproj_dropout: 0.1
+  encoder_dropout: 0.1
+  decoder_dropout: 0.1 
+  temp: 0.2
+  p: 0.8
+  epoch: 3000
+
