@@ -1,6 +1,6 @@
 cora:
-  encoder_channels: 256
-  hidden_channels: 128
+  encoder_channels: 512
+  hidden_channels: 256
   decoder_channels: 64
   encoder_layers: 2
   decoder_layers: 2
